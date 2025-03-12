@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link";
-import { FaFacebookF, FaLinkedinIn, FaMapLocationDot } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapLocationDot, FaYoutube } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RBLogo } from "@/images/logo";
 
@@ -40,19 +40,31 @@ export default function Footer() {
         <div className="w-full max-w-7xl mx-auto pt-8 pb-2 flex flex-col text-center lg:flex-row lg:justify-around space-y-8">
           <div className="place-items-center">
             <RBLogo text={true} vertical={true} className="w-4/5 max-w-[120px] lg:w-full mb-2"/>
-            <div className="font-[Berlin] font-semibold text-xl mt-4">Social Links</div>
+            <div className="font-[Berlin] font-semibold text-xl mt-4 mb-2">Social Links</div>
             <div className="flex space-x-2 md:space-x-3">
               <a 
                 className="bg-primary hover:bg-facebook text-primary-foreground hover:text-white rounded-full p-1.5 items-center transition-all duration-300"
-                href="https://www.facebook.com/asianliftbangladesh"
+                href="https://www.facebook.com/resilientbd"
                 target="_blank">
                 <FaFacebookF className="size-5"/>
               </a>
               <a 
+                className="bg-primary hover:bg-instagram text-primary-foreground hover:text-white rounded-full p-1.5 items-center transition-all duration-300"
+                href="https://www.instagram.com/resilient.bangladesh"
+                target="_blank">
+                <FaInstagram className="size-5"/>
+              </a>
+              <a 
                 className="bg-primary hover:bg-linkedin text-primary-foreground hover:text-white rounded-full p-1.5 items-center transition-all duration-300"
-                href="https://www.linkedin.com/company/asian-lift-bangladesh/"
+                href="https://www.linkedin.com/company/resilientbd"
                 target="_blank">
                   <FaLinkedinIn className="size-5"/>
+              </a>
+              <a 
+                className="bg-primary hover:bg-youtube text-primary-foreground hover:text-white rounded-full p-1.5 items-center transition-all duration-300"
+                href="https://www.youtube.com/channel/UCty5QruYzkbz1tkmusfjYtQ"
+                target="_blank">
+                  <FaYoutube className="size-5"/>
               </a>
             </div>
           </div>
