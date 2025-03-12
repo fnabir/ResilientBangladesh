@@ -20,9 +20,8 @@ import Panda from "@/images/partner/Panda.svg"
 import HumanitarianAid from "@/images/partner/HumanitarianAid.svg"
 import RoadToHumanity from "@/images/partner/RoadToHumanity.svg"
 import { RBLogo } from "@/images/logo";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 const projects = [
   {
